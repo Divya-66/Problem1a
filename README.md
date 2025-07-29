@@ -58,10 +58,10 @@ Extract clean, structured outlines from PDF documents using intelligent font, sp
 pdf_heading_extraction/
 ├── Dockerfile              # Builds the container image
 ├── requirements.txt        # Python dependencies (PyMuPDF)
-├── extract_headings.py     # Main logic for heading extraction
-├── data/
-│   ├── input.pdf           # 📥 Your input PDF(s)
-│   └── input.json          # 📤 JSON output with outline
+├── main.py     # Main logic for heading extraction
+├── imagefile
+│── sample.pdf           # 📥 Your input PDF(s)
+│── output.jsom        # 📤 JSON output with outline
 ```
 
 ---
